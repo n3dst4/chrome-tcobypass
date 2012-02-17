@@ -1,0 +1,19 @@
+{
+    "name": "t.co bypass",
+    "version": "0.1",
+    "description": "Fix links on TweetDeck to avoid t.co.",
+    "icons": {
+        "16": "tcobypass_16.png",
+        "48": "tcobypass_48.png",
+        "128": "tcobypass_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.tweetdeck.com/*"],
+            "js": ["jquery-1.7.1.min.js", "tcobypass.js"]
+        }
+    ],
+    "permissions": [
+        "*://*.tweetdeck.com/*"
+    ]
+}
