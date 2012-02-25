@@ -15,12 +15,10 @@ because t.co is doing stats counting.
 Installing
 ----------
 This is such a small, limited extension that it doesn't seem worth putting it on
-the Chrome web store. To install:
+the Chrome web store. Download the extension from
+<https://github.com/downloads/n3dst4/chrome-tcobypass/chrome-tcobypass.crx> and
+Chrome should automatically give you the option to install it.
 
-*   In Chrome go spanner menu -> Options -> Extensions
-*   Enable "Developer mode"
-*   Click "Load unpacked extension..."
-*   Navigate to the folder with the extension in it
 
 Licence
 -------
