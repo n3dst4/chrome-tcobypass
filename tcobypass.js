@@ -1,6 +1,6 @@
 /**
  * tcobypass.js
- * fixes links on which reference t.co where possible
+ * fixes links which reference t.co where possible
  */
 var fullAtts = [             // full URL attribute used on... 
         "data-ultimate-url", // twitter.com
