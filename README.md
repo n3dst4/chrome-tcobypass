@@ -1,7 +1,8 @@
 chrome-tcobypass
 ================
 
-Chrome extension to fix web.tweetdeck.com in places where t.co is blocked
+Chrome extension to fix links on web.tweetdeck.com and twitter.com to avoid
+t.co.
 
 This very small Chrome extension rewrites all the links on `*.tweetdeck.com` so
 that they point directly to the correct URL, rather than to `t.co/whatever`.
