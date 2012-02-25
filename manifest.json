@@ -2,6 +2,8 @@
     "name": "t.co bypass",
     "version": "0.1",
     "description": "Fix links on web.tweetdeck.com and twitter.com to avoid t.co.",
+    "homepage_url": "https://github.com/n3dst4/chrome-tcobypass",
+    "update_url": "https://raw.github.com/n3dst4/chrome-tcobypass/master/updates.xml",
     "icons": {
         "16": "tcobypass_16.png",
         "48": "tcobypass_48.png",

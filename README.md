@@ -4,12 +4,13 @@ chrome-tcobypass
 Chrome extension to fix links on web.tweetdeck.com and twitter.com to avoid
 t.co.
 
-This very small Chrome extension rewrites all the links on `*.tweetdeck.com` so
-that they point directly to the correct URL, rather than to `t.co/whatever`.
+This very small Chrome extension rewrites all the links on `*.tweetdeck.com`
+and `twitter.com` so that they point directly to the correct URL, rather than
+to `t.co/whatever`.
 
-This is possible because tweedeck actually embeds the correct URL in the html.
-Presumably the only reason they don't rewrite the links themselves is because
-t.co is doing stats counting.
+This is possible because both websites actually embeds the correct URL in the
+html. Presumably the only reason they don't rewrite the links themselves is
+because t.co is doing stats counting.
 
 Installing
 ----------
