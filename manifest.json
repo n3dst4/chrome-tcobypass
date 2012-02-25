@@ -10,7 +10,7 @@
     "content_scripts": [
         {
             "matches": ["*://*.tweetdeck.com/*"],
-            "js": ["jquery-1.7.1.min.js", "tcobypass.js"]
+            "js": ["tcobypass.js"]
         }
     ],
     "permissions": [
